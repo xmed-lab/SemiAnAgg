@@ -485,7 +485,6 @@ if __name__ == '__main__':
                         .format(AUROC_avg, bAccus_avg, Accus_avg, Pre, Recall))
 
             if com_round % 100 == 0:
-                # TODO linear evaluation.
                 logreg = torch.nn.Sequential(torch.nn.Linear(net_glob.backbone.fc.in_features, n_classes))
                 logreg = logreg.cuda()
                 net_glob.eval()
@@ -687,7 +686,6 @@ if __name__ == '__main__':
             optimizer = torch.optim.Adam(sup_net_locals[i].parameters(), lr=args.base_lr,
                                          betas=(0.9, 0.999), weight_decay=5e-4)
         elif args.opt == 'sgd':
-            # TODO change learnable params
             if i in supervised_user_id or i in unsupervised_user_id:
                 logger.info('classifier into supervised client')
                 learnable_params = [

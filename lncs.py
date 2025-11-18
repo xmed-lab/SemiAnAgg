@@ -182,7 +182,6 @@ def inference(loader, model, device,psuedo=False):
         h = h.squeeze()
         h = h.detach()
 
-        # TODO squeeze y?
         feature_vector.extend(h.cpu().detach().numpy())
 
         labels_vector.extend(y.numpy())
