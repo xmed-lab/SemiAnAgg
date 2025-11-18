@@ -1,12 +1,8 @@
-# [Semi-supervised Anchor-Based Federated Aggregation](https://openreview.net/forum?id=GDn6z9LIDs) [![openreview](https://avatars.githubusercontent.com/u/4711862?s=48&v=4)](https://openreview.net/forum?id=GDn6z9LIDs)
-
+# [Semi-supervised Anchor-Based Federated Aggregation](https://openreview.net/forum?id=GDn6z9LIDs)
 ###### [Marawan Elbatel](https://marwankefah.github.io/), Hualiang Wang, Jixiang Chen, Hao Wang, and [Xiaomeng Li](https://xmengli.github.io/)
 
 
-This repository contains the official PyTorch implementation of SemiAnAgg, introduced in: **Learning Unlabeled Clients Divergence for Federated Semi-Supervised Learning via Anchor Model Aggregation (TMLR 2024)**  
-
 ---
-
 ## Abstract
 
 Federated semi-supervised learning (FedSemi) refers to scenarios where there may be clients with fully labeled data, clients with partially labeled, and even fully unlabeled clients while preserving data privacy. However, challenges arise from client drift due to undefined heterogeneous class distributions and erroneous pseudo-labels. Existing FedSemi methods typically fail to aggregate models from unlabeled clients due to their inherent unreliability, thus overlooking unique information from their heterogeneous data distribution, leading to sub-optimal results. In this paper, we enable unlabeled client aggregation through SemiAnAgg, a novel Semi-supervised Anchor-Based federated Aggregation. SemiAnAgg learns unlabeled client contributions via an anchor model, effectively harnessing their informative value. Our key idea is that by feeding local client data to the same global model and the same consistently initialized anchor model (i.e., random model), we can measure the importance of each unlabeled client accordingly. Extensive experiments demonstrate that SemiAnAgg achieves new state-of-the-art results on four widely used FedSemi benchmarks, leading to substantial performance improvements: a 9% increase in accuracy on CIFAR-100 and a 7.6% improvement in recall on the medical dataset ISIC-18, compared with prior state-of-the-art.
