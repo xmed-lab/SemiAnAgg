@@ -1,4 +1,4 @@
-# [Semi-supervised Anchor-Based Federated Aggregation]((https://openreview.net/forum?id=GDn6z9LIDs)) [![openreview](https://avatars.githubusercontent.com/u/4711862?s=48&v=4)](https://openreview.net/forum?id=GDn6z9LIDs)
+# [Semi-supervised Anchor-Based Federated Aggregation](https://openreview.net/forum?id=GDn6z9LIDs) [![openreview](https://avatars.githubusercontent.com/u/4711862?s=48&v=4)](https://openreview.net/forum?id=GDn6z9LIDs)
 
 ###### [Marawan Elbatel](https://marwankefah.github.io/), Hualiang Wang, Jixiang Chen, Hao Wang, and [Xiaomeng Li](https://xmengli.github.io/)
 
