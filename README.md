@@ -1,6 +1,7 @@
 # [Semi-supervised Anchor-Based Federated Aggregation](https://openreview.net/forum?id=GDn6z9LIDs)
 ###### [Marawan Elbatel](https://marwankefah.github.io/), Hualiang Wang, Jixiang Chen, Hao Wang, and [Xiaomeng Li](https://xmengli.github.io/)
 
+Official implementation of the TMLR-accepted paper: _Learning Unlabeled Clients Divergence for Federated Semi-Supervised Learning via Anchor Model Aggregation_
 
 ---
 ## Abstract
