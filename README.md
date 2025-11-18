@@ -49,7 +49,7 @@ Federated semi-supervised learning (FedSemi) refers to scenarios where there may
 
 
 
-## Training
+# Training
 To reproduce the results, please modify the path of warm-up model accordingly. Warm-up models are trained on labeled clients. For different datasets, please modify file path, arguments "dataset" and "model" correspondingly.
 
 
@@ -86,7 +86,7 @@ python train.py --rounds 500 --local_ep 1 --num_labeled 1 --unsup_num=9 --datase
 We would like to acknoweldge RSCFed and CBAFed as we built our code on their base.
 
 
-# Citation
+## Citation
 ````
 @article{
 elbatel2024learning,
